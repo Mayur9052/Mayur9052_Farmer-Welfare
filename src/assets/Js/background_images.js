@@ -14,6 +14,6 @@ function change() {
 
     demo[index - 1].style.display = "block";
 
-    setTimeout(change, 50000);
+    setTimeout(change, 3000);
     // console.log("Hello");
 }
