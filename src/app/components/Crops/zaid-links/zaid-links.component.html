@@ -1,0 +1,12 @@
+<div class="demo_crops_kharif_links">
+    <h2>Zaid Crops </h2>
+
+    <select [(ngModel)]="demo_Zaid">
+        <option>Select Crops</option>
+        <option *ngFor="let zaid of Zaid_crops" value="{{zaid.name}}">
+            {{zaid.name}}
+        </option>
+    </select>
+
+    <a routerLink="/Crops_details/{{demo_Zaid}}">{{demo_Zaid}}</a>
+</div>

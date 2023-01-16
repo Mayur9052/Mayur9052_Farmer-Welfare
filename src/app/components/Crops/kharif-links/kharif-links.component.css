@@ -1,0 +1,28 @@
+.demo_crops_kharif_links {
+    position: relative;
+}
+
+.demo_crops_kharif_links h2 {
+    position: relative;
+    top: 14px;
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #192a56;
+    text-transform: uppercase;
+}
+/* 
+.demo_crops_kharif_links a {
+    text-decoration: none;
+    color: white;
+    background-color: darkgreen;
+    border: 1px solid darkgreen;
+    padding: 10px 20px;
+    margin: 10px 15px;
+    transition-duration: 0.6s;
+}
+
+.demo_crops_kharif_links a:hover {
+    background-color: white;
+    color: darkgreen;
+} */

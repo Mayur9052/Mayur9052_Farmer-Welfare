@@ -1,0 +1,30 @@
+.img_demo {
+    display: flex;
+    z-index: 4;
+    background-color: #192a56;
+    padding: 16px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.img_demo a:first-child {
+    margin-left: 350px;
+}
+
+.img_demo a {
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+    padding: 8px 22px;
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+.img_demo a:hover {
+    background-color: whitesmoke;
+    color: black;
+    opacity: 0.8;
+    transition-duration: 0.7s;
+}

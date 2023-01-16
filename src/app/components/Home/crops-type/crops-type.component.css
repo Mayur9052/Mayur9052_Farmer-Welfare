@@ -1,0 +1,91 @@
+.demo_crops_main {
+    position: absolute;
+    top: 100%;
+
+    /* background-image: url('../../../../assets/Images/k2.jpg'); */
+    background-color: #f2f2f2;
+    background-size: cover;
+    background-position: center left;
+    width: 100%;
+    height: 500px;
+}
+
+
+.demo_crops_main_content h1 {
+    position: absolute;
+    left: 42%;
+    top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: blue;
+}
+
+.demo_crops_main_content h3 {
+    font-size: 24px;
+    color: darkgreen;
+    position: relative;
+    margin-left: 19%;
+}
+
+.demo_crops_main_content a {
+    background-color: darkgreen;
+    color: white;
+    border: 1px solid darkgreen;
+    padding: 7px 17px;
+    margin: 10px 15px;
+    text-decoration: none;
+}
+
+#demo_links_crops {
+    position: absolute;
+    left: 100px;
+    top: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.demo_crops_types_matter_links {
+    display: flex;
+    flex-direction: column;
+}
+
+/* crops Distribution  */
+
+.demo_crops_types {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 50px;
+}
+
+.demo_crops_types_matter {
+    position: relative;
+    top: 30px;
+    background-color: white;
+    margin: 5px 20px;
+    padding: 10px 20px;
+    box-shadow: 0 8px 13px 0 rgba(0, 0, 0, 0.2), 0 9px 22px 0 rgba(0, 0, 0, 0.19);
+}
+
+.demo_crops_types_matter h3 {
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 10px;
+    color: blue;
+}
+
+/* Crops Dropdown */
+
+.demo_crops_dropdown {
+    position: relative;
+    left: 44%;
+    top: 55px;
+    padding: 10px 50px;
+    padding-left: 10px;
+}
+
+.demo_crops_dropdown_option {
+    margin: 5px 50px;
+    margin-left: 10px;
+}

@@ -1,0 +1,35 @@
+<div class="demo_crops_main">
+    <div class="demo_crops_main_content">
+        <h1>INDIAN CROPS</h1>
+        <br>
+        <form action="">
+            <select (change)="onSelect($event)" ngModel="Types.name" class="demo_crops_dropdown">
+                <option class="demo_crops_dropdown_option">Select Types</option>
+                <option class="demo_crops_dropdown_option" *ngFor="let type of Types" value="{{type.id}}">
+                    {{type.name}}
+                </option>
+            </select>
+
+            <br><br>
+
+            <div class="demo_crops_type_matter_links">
+                <div class="demo_crops_types">
+                    <div class="demo_crops_types_matter" *ngFor="let crop1 of Crops_types_matter">
+                        <h3>{{crop1.name}} Crops</h3>
+                        <p>{{crop1.matter}}</p>
+                    </div>
+                </div>
+
+                <div id="demo_links_crops">
+                    <a *ngFor="let crop of crops" routerLink="/Crops_details/{{crop.name}}">{{crop.name}}</a>
+                    <!-- <span *ngIf=""></span> -->
+                </div>
+
+            </div>
+        </form>
+        <div class="demo_crops_types" *ngIf="demo_demo == false">
+            <div class="demo_crops_types_matter" *ngFor="let matter1 of matter">
+                <h3>{{matter1.name}} Crops</h3>
+                <p>{{matter1.matter}}</p>
+            </div>
+        </div>
