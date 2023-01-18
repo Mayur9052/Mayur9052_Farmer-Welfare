@@ -13,8 +13,8 @@ export class CropsService {
     return details;
   }
 
-  getCropsByName(demo_name: string): Crops {
-    return this.getAllCrops().find(crop => crop.name == demo_name) ?? new Crops();
+  getCropsByName(name: string): Crops {
+    return this.getAllCrops().find(crop => crop.name == name) ?? new Crops;
   }
 
   getCropsRabi(): Rabi[] {

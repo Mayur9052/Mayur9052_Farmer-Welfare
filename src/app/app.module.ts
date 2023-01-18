@@ -31,6 +31,7 @@ import { ZaidComponent } from './components/Crops/zaid/zaid.component';
 import { RabiLinksComponent } from './components/Crops/rabi-links/rabi-links.component';
 import { KharifLinksComponent } from './components/Crops/kharif-links/kharif-links.component';
 import { ZaidLinksComponent } from './components/Crops/zaid-links/zaid-links.component';
+import { ProductDisplayComponent } from './components/product/product-display/product-display.component';
 
 @NgModule({
   declarations: [
@@ -55,6 +56,7 @@ import { ZaidLinksComponent } from './components/Crops/zaid-links/zaid-links.com
     RabiLinksComponent,
     KharifLinksComponent,
     ZaidLinksComponent,
+    ProductDisplayComponent,
   ],
   imports: [
     BrowserModule,

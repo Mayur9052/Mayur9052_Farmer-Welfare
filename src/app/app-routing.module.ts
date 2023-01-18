@@ -8,12 +8,14 @@ import { ZaidComponent } from './components/Crops/zaid/zaid.component';
 import { HomeComponent } from './components/Home/home/home.component';
 import { NewsComponent } from './components/news/news.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { ProductDisplayComponent } from './components/product/product-display/product-display.component';
 import { ProductComponent } from './components/product/product.component';
 import { TestingComponent } from './components/testing/testing.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'Crops_details/:name', component: CropContentComponent },
+  { path: 'Product/:name', component: ProductDisplayComponent },
   { path: 'crops_details/Rabi', component: RabiComponent },
   { path: 'crops_details/Kharif', component: KharifComponent },
   { path: 'crops_details/Zaid', component: ZaidComponent },

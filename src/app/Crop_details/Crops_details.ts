@@ -130,65 +130,65 @@ export const Crop_Rabi: Rabi[] = [{
 },
 ];
 
-export const Crop_Kharif: Kharif[] = [ 
-{
-    id: 2,
+export const Crop_Kharif: Kharif[] = [
+    {
+        id: 2,
         name: "Rice",
         demo: "demo133"
-},
-{
-    id: 2,
+    },
+    {
+        id: 2,
         name: "Maize",
         demo: "demo133"
-},
-{
-    id: 2,
+    },
+    {
+        id: 2,
         name: "Jowar",
         demo: "demo133"
-},
-{
-    id: 2,
+    },
+    {
+        id: 2,
         name: "Bajra",
         demo: "demo133"
-},
-{
-    id: 2,
+    },
+    {
+        id: 2,
         name: "Tur",
         demo: "demo133"
-},
-{
-    id: 2,
+    },
+    {
+        id: 2,
         name: "Moong",
         demo: "demo133"
-},
-{
-    id: 2,
+    },
+    {
+        id: 2,
         name: "Urad",
         demo: "demo133"
-},
-{
-    id: 2,
+    },
+    {
+        id: 2,
         name: "Cotton",
         demo: "demo133"
-},
-{
-    id: 2,
+    },
+    {
+        id: 2,
         name: "Jute",
         demo: "demo133"
-},
-{
-    id: 2,
+    },
+    {
+        id: 2,
         name: "Groundnut",
         demo: "demo133"
-},
-{
-    id: 2,
+    },
+    {
+        id: 2,
         name: "Soybean",
         demo: "demo133"
-},
+    },
 ]
 
-export const Crop_Zaid: Kharif[] =[
+export const Crop_Zaid: Kharif[] = [
     {
         id: 3,
         name: "Watermelon",
